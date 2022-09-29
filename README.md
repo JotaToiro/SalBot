@@ -22,4 +22,5 @@ This is a discord music bot made in python that plays songs using youtube links,
 It is required to have a working spotify developer account in order to use spotify related commands. It is also required to have a database of your own in order to use the bot properly because the ">play" command will save data on the database and if the connection is not right the bot can crash.
 
 # Images
-![example]
+![](example.png)
+![](example2.png)
