@@ -1,5 +1,6 @@
 # SalBot
 This is a discord music bot made in python that plays songs using youtube links, search strings, and spotify links, including playlists and albums.
+This bot was made using the library [Nextcord](https://github.com/nextcord/nextcord) in order to implement every discord related functionality.
 
 # Features
 - Plays songs from youtube and spotify, including playlists from both platforms and albums from spotify.
@@ -15,12 +16,13 @@ This is a discord music bot made in python that plays songs using youtube links,
 - ">play (youtube link)"
 - ">play (spotify link)"
 - ">loop"
-- ">skip"
-- ...Shows commands available by using ">help" command
+- ">skip"  
+...Shows commands available by using ">help" command
 
 # Requirements
 It is required to have a working spotify developer account in order to use spotify related commands. It is also required to have a database of your own in order to use the bot properly because the ">play" command will save data on the database and if the connection is not right the bot can crash.
+In addition to the libraries imported in every python file, it is also necessery to install ffmpeg (audio player) in your machine and the library PyNaCle (no error will pop up if this library is not installed, the bot will simply not connect to any voice channel).
 
 # Images
-![](example.png)
-![](example2.png)
+![](example.png)  
+![](example1.png)
